@@ -1,6 +1,8 @@
 # EdgeOps Blog
 
-Custom markdown-driven blog app with exact EdgeOps website branding.
+High-signal technical editorial for the Autonomous Cloud. Built with precision for platform engineers, SREs, and DevOps professionals.
+
+[**Visit the Editorial**](https://blogs.edgeopslabs.com) | [**Write for us**](#write-for-edgeops) | [**Community**](CONTRIBUTORS.md)
 
 ## Stack
 - Next.js 16 (App Router)
@@ -10,9 +12,9 @@ Custom markdown-driven blog app with exact EdgeOps website branding.
 - react-markdown + gray-matter
 
 ## Routes
-- `/` landing page
-- `/post` posts index with search/filter
-- `/post/{slug}` post detail
+- `/` – Hero & Featured Editorial
+- `/post` – Full archive with search & filtered discovery
+- `/post/{slug}` – Deep-dive article view
 
 ## Write a post
 Create a markdown file in `/post`.
@@ -95,4 +97,26 @@ UPSTASH_REDIS_REST_URL="https://<your-upstash-rest-url>"
 UPSTASH_REDIS_REST_TOKEN="<your-upstash-rest-token>"
 ```
 
-Without these values the server will throw on startup, and impressions/highlight APIs will not work.
+---
+
+## Write for EdgeOps
+
+Are you a platform engineer, SRE, or cloud architect? We are looking for high-signal insights on:
+- **Autonomous Infrastructure**: AI-driven operations and self-healing systems.
+- **Platform Engineering**: Internal Developer Platforms (IDPs) and developer experience.
+- **Cloud Native Patterns**: Kubernetes, eBPF, and cutting-edge orchestration.
+- **SRE & Resilience**: Incident response playbooks and reliability engineering.
+
+### Workflow
+1. **Submit a Proposal**: [Open an issue](https://github.com/EdgeOpslabs/blogs/issues/new?template=blog_proposal.md) to pitch your idea first.
+2. **Collaborate**: Refine the outline with the core team.
+3. **Contribute**: Fork, write, and submit a PR.
+
+See [**CONTRIBUTING.md**](CONTRIBUTING.md) for the full editorial guidelines.
+
+## Community & Credits
+
+This platform is a collaborative effort. View our [**CONTRIBUTORS.md**](CONTRIBUTORS.md) to see the humans behind the code and content.
+
+---
+© 2026 EdgeOps Labs. Licensed under MIT.
