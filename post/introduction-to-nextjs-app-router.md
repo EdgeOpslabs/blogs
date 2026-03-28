@@ -1,8 +1,8 @@
 ---
 title: "Understanding the Next.js App Router"
 description: "A beginner-friendly guide to getting started with the modern Next.js App Router and its powerful layout system."
-image: "/images/blogs/docker_services.png"
-thumbnail: "/images/thumbnails/docker_services.png"
+image: "/post/docker_services.png"
+thumbnail: "/post/docker_services.png"
 author: "EdgeOps Labs"
 date: "2026-03-27"
 newsletter: true

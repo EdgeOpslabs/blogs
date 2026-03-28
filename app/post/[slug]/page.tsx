@@ -43,13 +43,13 @@ export default async function PostDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = await getPostBySlug(slug);
+  const allPosts = await getAllPosts();
+  const post = allPosts.find((p) => p.slug === slug);
 
   if (!post) {
     notFound();
   }
 
-  const allPosts = await getAllPosts();
   const recentPosts = allPosts.filter((p) => p.slug !== slug).slice(0, 3);
 
   return (
